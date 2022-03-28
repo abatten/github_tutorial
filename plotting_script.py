@@ -12,6 +12,7 @@ ax.plot(x_values, x_values, color="black", label="Linear")
 ax.plot(x_values, x_squr, label="Quadratic")
 ax.plot(x_values, x_cube, label="Cubic")
 ax.legend(frameon=False)
+print('Daniel is cool')
 plt.savefig("functions.png")
 
 
